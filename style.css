@@ -1,0 +1,31 @@
+body {
+    font-family: "Inter wbs",sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 500px;
+}
+
+ul {
+    /* margin: 2em 0; */
+    padding-left: 1.5em;
+}
+
+li {
+    /* padding: 1em 1px; */
+    margin: 0.7em 0px 0px 0px;
+}
+
+li::marker {
+    content: "›  ";
+}
+
+a {
+    color: black;
+}
